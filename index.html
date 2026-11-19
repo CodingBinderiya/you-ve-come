@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>...</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="noise"></div>
+
+  <!-- Start screen -->
+  <section id="start" class="screen active">
+    <button id="startBtn" class="start-btn">are you prepared enough?</button>
+  </section>
+
+  <!-- Quiz screen -->
+  <section id="quiz" class="screen">
+    <div class="counter" id="counter">1 / 7</div>
+    <div class="timer" id="timer">15.0</div>
+    <h2 id="question" class="question"></h2>
+    <div id="choices" class="choices"></div>
+    <p id="reply" class="reply"></p>
+    <p id="wait" class="wait"></p>
+  </section>
+
+  <!-- Blackout -->
+  <div id="blackout">
+    <span id="number">0111</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
